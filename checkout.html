@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ЮгТур - Оформление заказа</title>
+        <meta name="description" content="Оформление заказа в ЮгТур. Введите данные туриста и выберите удобный способ оплаты.">
+    <meta name="keywords" content="оформление заказа, оплата тура, данные туриста, бронирование">
+    <meta name="author" content="Данил">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container header-inner">
+            <div class="logo"><span class="logo-icon">✈</span> ЮгТур</div>
+            <div class="search-bar"><input type="text" placeholder="Поиск тура..."></div>
+            <div class="header-actions">
+                <a href="cart.html" class="cart-link">🛒 Корзина (2)</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="tours.html">Туры</a></li>
+                <li><a href="about.html">О компании</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-title"><div class="container"><h1>Оформление заказа</h1></div></div>
+
+    <main class="container checkout-page">
+        <form action="#" class="checkout-form">
+            <h2>01. Данные туриста</h2>
+            <div class="form-row">
+                <input type="text" placeholder="Имя" required>
+                <input type="text" placeholder="Фамилия" required>
+            </div>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Телефон" required>
+
+            <h2>02. Способ оплаты</h2>
+            <label><input type="radio" name="pay" checked> Банковская карта</label>
+            <label><input type="radio" name="pay"> Наличными в офисе</label>
+
+            <button type="submit" class="btn btn-pink btn-block" style="margin-top: 20px;">Подтвердить заказ</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-bottom"><div class="container"><p>© 2026 ЮгТур.</p></div></div>
+    </footer>
+</body>
+</html>

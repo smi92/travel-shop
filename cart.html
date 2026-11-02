@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЮгТур - Корзина</title>
+        <meta name="description" content="Ваша корзина покупок в турагентстве ЮгТур. Проверьте выбранные туры перед оформлением заказа.">
+    <meta name="keywords" content="корзина, оформление тура, заказ путевки, ЮгТур">
+    <meta name="author" content="Данил">
+    <meta name="robots" content="noindex, nofollow"> <!-- Эту страницу поисковикам лучше не показывать -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container header-inner">
+            <div class="logo"><span class="logo-icon">✈</span> ЮгТур</div>
+            <div class="search-bar"><input type="text" placeholder="Поиск тура..."></div>
+            <div class="header-actions">
+                <a href="cart.html" class="cart-link">🛒 Корзина (2)</a>
+                <a href="#" class="btn btn-pink">Мой профиль</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="tours.html">Туры</a></li>
+                <li><a href="#">Горячие предложения</a></li>
+                <li><a href="about.html">О компании</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-title"><div class="container"><h1>Корзина</h1><p>Главная / Корзина</p></div></div>
+
+    <main class="cart-layout container">
+        <table class="cart-table">
+            <thead>
+                <tr><th>Товар</th><th>Цена</th><th>Количество</th><th>Итого</th><th></th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="cart-product">
+                        <img src="images/sochi.jpg" alt="Сочи">
+                        <div><h4>Тур в Сочи (7 дней)</h4><p>Дата: 10.06.2026</p></div>
+                    </td>
+                    <td>$520.00</td>
+                    <td><input type="number" value="1" min="1" class="qty-input"></td>
+                    <td>$520.00</td>
+                    <td><button class="btn-remove">✖</button></td>
+                </tr>
+                <tr>
+                    <td class="cart-product">
+                        <img src="images/krym.jpg" alt="Крым">
+                        <div><h4>Тур в Крым (10 дней)</h4><p>Дата: 15.07.2026</p></div>
+                    </td>
+                    <td>$650.00</td>
+                    <td><input type="number" value="1" min="1" class="qty-input"></td>
+                    <td>$650.00</td>
+                    <td><button class="btn-remove">✖</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="cart-actions">
+            <button class="btn btn-outline">Очистить корзину</button>
+            <div class="cart-totals">
+                <div class="total-row"><span>Подытог:</span> <span>$1170.00</span></div>
+                <div class="total-row grand-total"><span>ИТОГО:</span> <span>$1170.00</span></div>
+                <a href="checkout.html" class="btn btn-pink btn-block">Оформить заказ</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col"><div class="logo"><span class="logo-icon">✈</span> ЮгТур</div><p>Лучшие путешествия по России.</p></div>
+            <div class="footer-col"><h4>КОМПАНИЯ</h4><ul><li><a href="index.html">Главная</a></li><li><a href="about.html">О нас</a></li></ul></div>
+            <div class="footer-col"><h4>ИНФОРМАЦИЯ</h4><ul><li><a href="#">Условия</a></li><li><a href="#">Политика</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><div class="container"><p>© 2026 ЮгТур.</p></div></div>
+    </footer>
+</body>
+</html>

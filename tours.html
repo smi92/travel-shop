@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЮгТур - Каталог туров</title>
+        <meta name="description" content="Каталог туров по России от ЮгТур. Выберите пляжный отдых, экскурсии или санатории по лучшим ценам.">
+    <meta name="keywords" content="каталог туров, купить путевку, цены на туры, направления, отдых в России">
+    <meta name="author" content="Данил">
+    <meta property="og:title" content="Каталог туров - ЮгТур">
+    <meta property="og:description" content="Большой выбор туров по России. Фильтры по цене и категориям.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container header-inner">
+            <div class="logo"><span class="logo-icon">✈</span> ЮгТур</div>
+            <div class="search-bar"><input type="text" placeholder="Поиск тура..."></div>
+            <div class="header-actions">
+                <a href="cart.html" class="cart-link">🛒 Корзина (0)</a>
+                <a href="#" class="btn btn-pink">Мой профиль</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="tours.html" class="active">Туры</a></li>
+                <li><a href="#">Горячие предложения</a></li>
+                <li><a href="about.html">О компании</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-title"><div class="container"><h1>Каталог туров</h1><p>Главная / Туры / Все направления</p></div></div>
+
+    <main class="catalog-layout container">
+        <aside class="sidebar">
+            <h3>Категории</h3>
+            <ul class="filter-list">
+                <li><a href="#">Все туры</a></li>
+                <li><a href="#">Пляжный отдых</a></li>
+                <li><a href="#">Горнолыжные курорты</a></li>
+                <li><a href="#">Экскурсионные туры</a></li>
+                <li><a href="#">Санатории</a></li>
+            </ul>
+            <h3>Цена</h3>
+            <input type="range" min="10000" max="100000" class="price-range">
+        </aside>
+
+        <div class="catalog-content">
+            <div class="catalog-toolbar">
+                <span>Показано 1-6 из 24 туров</span>
+                <select><option>Сортировка: по популярности</option><option>Сортировка: по цене</option></select>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="images/sochi.jpg" alt="Сочи">
+                        <div class="overlay"><a href="product.html" class="btn-add">В корзину</a></div>
+                    </div>
+                    <div class="product-info"><h3>Тур в Сочи</h3><span class="price">$520.00</span></div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="images/krym.jpg" alt="Крым">
+                        <div class="overlay"><a href="product.html" class="btn-add">В корзину</a></div>
+                    </div>
+                    <div class="product-info"><h3>Тур в Крым</h3><span class="price">$650.00</span></div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="images/kavkaz.jpg" alt="Кавказ">
+                        <div class="overlay"><a href="product.html" class="btn-add">В корзину</a></div>
+                    </div>
+                    <div class="product-info"><h3>Кавказские Минводы</h3><span class="price">$410.00</span></div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="images/sochi.jpg" alt="Сочи">
+                        <div class="overlay"><a href="product.html" class="btn-add">В корзину</a></div>
+                    </div>
+                    <div class="product-info"><h3>Сочи (Люкс)</h3><span class="price">$890.00</span></div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="images/krym.jpg" alt="Крым">
+                        <div class="overlay"><a href="product.html" class="btn-add">В корзину</a></div>
+                    </div>
+                    <div class="product-info"><h3>Крым (Экскурсии)</h3><span class="price">$550.00</span></div>
+                </div>
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="images/kavkaz.jpg" alt="Кавказ">
+                        <div class="overlay"><a href="product.html" class="btn-add">В корзину</a></div>
+                    </div>
+                    <div class="product-info"><h3>Алтай (Горы)</h3><span class="price">$720.00</span></div>
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">→</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col"><div class="logo"><span class="logo-icon">✈</span> ЮгТур</div><p>Лучшие путешествия по России.</p></div>
+            <div class="footer-col"><h4>КОМПАНИЯ</h4><ul><li><a href="index.html">Главная</a></li><li><a href="about.html">О нас</a></li><li><a href="#">Как купить</a></li></ul></div>
+            <div class="footer-col"><h4>ИНФОРМАЦИЯ</h4><ul><li><a href="#">Условия</a></li><li><a href="#">Политика</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><div class="container"><p>© 2026 ЮгТур.</p></div></div>
+    </footer>
+</body>
+</html>

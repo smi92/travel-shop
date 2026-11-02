@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ЮгТур - Карточка тура</title>
+        <meta name="description" content="Тур в Сочи на 7 дней от ЮгТур. Проживание в отеле 4*, завтраки, трансфер и экскурсии. Забронируйте сейчас!">
+    <meta name="keywords" content="тур в Сочи, путевка в Сочи, отель 4 звезды, отдых на море, цена тура">
+    <meta name="author" content="Данил">
+    <meta property="og:title" content="Тур в Сочи (7 дней) - ЮгТур">
+    <meta property="og:description" content="Жемчужина Черного моря. Проживание в отеле 4*, завтраки и трансфер.">
+    <meta property="og:type" content="product">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="container header-inner">
+            <div class="logo"><span class="logo-icon">✈</span> ЮгТур</div>
+            <div class="search-bar"><input type="text" placeholder="Поиск тура..."></div>
+            <div class="header-actions">
+                <a href="cart.html" class="cart-link">🛒 Корзина (1)</a>
+                <a href="#" class="btn btn-pink">Мой профиль</a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="tours.html">Туры</a></li>
+                <li><a href="#">Горячие предложения</a></li>
+                <li><a href="about.html">О компании</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container product-page">
+        <div class="product-layout">
+            <div class="product-image">
+                <img src="images/sochi.jpg" alt="Тур в Сочи">
+            </div>
+            <div class="product-details">
+                <h1>Тур в Сочи (7 дней)</h1>
+                <p class="price-large">$520.00</p>
+                <p class="description">Откройте для себя жемчужину Черного моря! Проживание в отеле 4*, завтраки, трансфер и насыщенная экскурсионная программа.</p>
+                
+                <form action="cart.html">
+                    <div class="options">
+                        <label>Дата вылета:
+                            <input type="date" required>
+                        </label>
+                        <label>Количество человек:
+                            <input type="number" value="1" min="1" required>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-pink btn-block" style="margin-top: 20px;">Добавить в корзину</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bottom"><div class="container"><p>© 2026 ЮгТур.</p></div></div>
+    </footer>
+</body>
+</html>
